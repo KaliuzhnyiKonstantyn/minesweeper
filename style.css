@@ -1,12 +1,19 @@
+@font-face {
+    font-family: Quartz;
+    src: url(fonts/Quartz.ttf), url(fonts/quartz\ regular.ttf), url(fonts/QuartzItalic.ttf), url(fonts/QuartzRegular.ttf);
+
+}
+
 main {
     margin: 150px auto 0;
-    width: 620px;
-    height: 380px;
+    width: 630px;
+    height: 400px;
     background-color: #C0C0C0;
+    border-style: outset;
 }
 
 .menu {
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .content {
@@ -20,18 +27,18 @@ main {
 }
 
 .couter {
-    font-family: Big Shoulders Stencil Text;
+    font-family: Quartz;
     background-color: black;
     color: red;
     width: 50px;
     height: 30px;
     margin: 0 5px;
-    font-size: 24px;
+    font-size: 26px;
     border-style: inset;
     text-align: center;
 }
 
-.smail-btn {
+.smile-btn {
     width: 30px;
     height: 30px;
     border-style: outset;
@@ -45,7 +52,8 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 10px;
+    margin: 10px;
+    border-style: inset;
 }
 
 .cell {
